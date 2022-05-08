@@ -8,8 +8,11 @@ html {
 
 body{
     font-family: 'Roboto', sans-serif;
-    margin: 25px 280px;
+    margin: 25px 300px;
     background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
 }
 
 .link-logo{
@@ -27,6 +30,7 @@ body{
     margin: 0;
     justify-content: flex-end;
     align-items: center;
+    padding: 0;
 }
 
 a{
@@ -46,4 +50,21 @@ li{
 
 li:first-child {
     margin-right: auto;
+    margin-left: 0;
+}
+
+.main{
+    width: 400px;
+    margin-top: 135px;
+}
+
+.text{
+    font-size: 48px;
+    margin: 0;
+}
+
+.subtext{
+    word-wrap: break-word;
+    margin: 0;
+    padding-top: 5px;
 }
