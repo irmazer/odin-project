@@ -72,7 +72,7 @@ li:first-child {
 }
 
 .subtext{
-    word-wrap: break-word;
+    word-wrap: break-word; /*this is to wrap text*/
     margin: 0;
     padding-top: 5px;
 }
@@ -98,4 +98,37 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.random-info{
+    background-color: #ffffff;
+    color: #1f2937;
+    text-align: center;
+}
+
+.info{
+    font-weight: bolder;
+}
+
+.random-boxes{
+    display: flex;
+    width: 820px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+    flex: 1;
+}
+
+.box{
+    width: 160px;
+    height: 160px;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+}
+
+.random-container{ /* adding this so text and box can align */
+    width: 160px;
+    margin: 2em;
 }
