@@ -8,11 +8,11 @@ html {
 
 body{
     font-family: 'Roboto', sans-serif;
-    margin: 25px 300px;
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
     color: #f9faf8;
+    flex: 1;
 }
 
 .link-logo{
@@ -23,6 +23,7 @@ body{
 
 .header {
     color: #f9faf8;
+    padding: 25px 300px;
 }
 
 .nav-list{
@@ -53,9 +54,16 @@ li:first-child {
     margin-left: 0;
 }
 
-.main{
-    width: 400px;
+.main-content{
     margin-top: 135px;
+    display: flex;
+    padding: 25px 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-content{
+    width: 400px;
 }
 
 .text{
@@ -81,4 +89,13 @@ button{
     color: inherit;
     font-size: 16px;
     font-weight: bold;
+}
+
+.image-example{
+    width: 500px;
+    height: 235px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
