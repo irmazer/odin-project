@@ -1,9 +1,26 @@
 html {
     box-sizing: border-box;
+    margin: 0; /* margin: 0 and padding: 0 used to make background color full width*/
+    padding: 0; 
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
+}
+
+@font-face{
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Regular.ttf)
+}
+
+@font-face{
+    font-family: 'Roboto Light';
+    src: url(fonts/Roboto-Light.ttf)
+}
+
+@font-face{
+    font-family: 'Roboto Bold';
+    src: url(fonts/Roboto-Bold.ttf)
 }
 
 body{
@@ -13,6 +30,8 @@ body{
     flex-direction: column;
     color: #f9faf8;
     flex: 1;
+    margin: 0; /* margin: 0 and padding: 0 used to make background color full width*/
+    padding: 0;
 }
 
 .link-logo{
@@ -60,6 +79,7 @@ li:first-child {
     padding: 25px 300px;
     display: flex;
     justify-content: space-between;
+    height: 450px;
 }
 
 .first-content{
@@ -67,6 +87,7 @@ li:first-child {
 }
 
 .text{
+    font-family: 'Roboto Bold';
     font-size: 48px;
     margin: 0;
 }
@@ -104,16 +125,18 @@ button{
     background-color: #ffffff;
     color: #1f2937;
     text-align: center;
+    width: 100%;
+    height: 500px;
 }
 
 .info{
+    font-family: 'Roboto BOld';
     font-weight: bolder;
+    margin-top: 50px;
 }
 
 .random-boxes{
     display: flex;
-    width: 820px;
-    height: 250px;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -131,4 +154,26 @@ button{
 .random-container{ /* adding this so text and box can align */
     width: 160px;
     margin: 2em;
+}
+
+.quote{
+    background-color: #E5E7EB;
+}
+
+.quote-container{
+    width: 820px;
+    height: 152px;
+    margin: auto;
+    margin-top: 140px;
+    margin-bottom: 12px;
+}
+
+em{
+    font-family: 'Roboto Light';
+    font-size: 36px;
+    color: black;
+}
+
+strong{
+    color: black;
 }
