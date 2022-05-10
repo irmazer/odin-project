@@ -99,17 +99,19 @@ li:first-child {
 }
 
 button{
-    background-color: #3882F6;
-    border-radius: 5px;
+    border-radius: 8px;
     margin-top: 1em;
     padding: 5px;
     width: 130px;
     height: 37px;
-    border: none;
-    font-family: inherit;
+    font-family: 'Roboto Bold';
     color: inherit;
     font-size: 16px;
-    font-weight: bold;
+}
+
+.su-button{
+    background-color: #3882F6;
+    border: none;
 }
 
 .image-example{
@@ -181,4 +183,31 @@ em{
 
 strong{
     color: black;
+}
+
+.cta{
+    height: 350px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container{
+    background-color: #3882F6;
+    width: 1000px;
+    height: 150px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cta-button{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+}
+
+.cta-text > * {
+    margin: 2px;
 }
