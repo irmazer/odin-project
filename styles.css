@@ -211,3 +211,10 @@ strong{
 .cta-text > * {
     margin: 2px;
 }
+
+.copyright{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
